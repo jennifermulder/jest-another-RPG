@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "jest": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jennifermulder/jest-another-RPG/issues"
   },
-  "homepage": "https://github.com/jennifermulder/jest-another-RPG#readme"
+  "homepage": "https://github.com/jennifermulder/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
